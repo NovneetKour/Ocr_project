@@ -32,15 +32,15 @@ def extract_and_save_text(image_path):
                 extracted_data[crop_folder] = None
 
     
-   # output_dir = "output"  # Adjust if needed
+    output_dir = "output"  # Adjust if needed
     
     # Create the output directory if it doesn't exist
-    #if not os.path.exists(output_dir):
-      #  os.makedirs(output_dir)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
 
     # Define the path for the JSON file
-    #json_file_path = os.path.join(output_dir, "processed_data.json")
-    json_file_path = os.path.join(os.getcwd(), "processed_data.json")
+    json_file_path = os.path.join(output_dir, "processed_data.json")
+
     # Write processed data to the JSON file
     with open(json_file_path, "w") as json_file:
         json.dump(extracted_data, json_file, indent=4)
