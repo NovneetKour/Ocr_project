@@ -1,6 +1,6 @@
 # AUTOMATED FORM FILLING IN BANK FINANCIAL SYSTEM USING COMPUTER VISION
 
-- TEAM LEADER - NOVNEET KOUR (8th semester cse dept)
+- TEAM MEMBER - NOVNEET KOUR (8th semester cse dept)
 - TEAM MEMBER - PARMEET KOUR (8th semester cse dept)
 - TEAM MEMBER - YOGITA TUFCHI (8th semester cse dept)
 
